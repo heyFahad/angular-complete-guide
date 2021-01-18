@@ -10,7 +10,7 @@ interface User {
     confirmPassword?: string; // Optional property => Does not have to be implemented
 }
 
-let user:User;
+let user: User;
 
 // This value does not satisfy the interface => Compilation error
 // user = { anything: 'anything', anynumber: 5};
